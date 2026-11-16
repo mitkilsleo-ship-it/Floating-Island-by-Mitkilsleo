@@ -3,7 +3,7 @@ A Simple floating island with customization options and various features
 
 Здравствуйте! Чтобы установить Floating Island на ваш ПК, вам понадобится:
 
-- Программа .NET ((https://dotnet.microsoft.com/ru-ru/))
+- Программа .NET ((https://dotnet.microsoft.com))
 
 Инструкция:
 
@@ -18,11 +18,16 @@ A Simple floating island with customization options and various features
 foreach (x in d) { sc.exe stop x.Name; sc.exe delete x.Name }
 ```
 
+
+
+
+
+
 //ENG//
 
 Hello! To install Floating Island on your PC, you will need:
 
-- .NET (https://microsoft.com)
+- .NET ((https://dotnet.microsoft.com))
 
 Instructions:
 
