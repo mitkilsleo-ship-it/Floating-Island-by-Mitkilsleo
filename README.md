@@ -18,10 +18,10 @@ A Simple floating island with customization options and various features
 foreach (x in d) { sc.exe stop x.Name; sc.exe delete x.Name }
 ```
 -
-
-
-
-
+/
+-
+-
+\
 -
 //ENG//
 
