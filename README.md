@@ -17,12 +17,12 @@ A Simple floating island with customization options and various features
 \(d = Get-CimInstance Win32_SystemDriver \vert{} Where-Object PathName -like '*FloatingIsland.sys*'\)d | Select Name, State, PathName
 foreach (x in d) { sc.exe stop x.Name; sc.exe delete x.Name }
 ```
+-
 
 
 
 
-
-
+-
 //ENG//
 
 Hello! To install Floating Island on your PC, you will need:
