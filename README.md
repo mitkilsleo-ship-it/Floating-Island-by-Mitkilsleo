@@ -1,5 +1,6 @@
 # Floating-Island-by-Mitkilsleo
 A Simple floating island with customization options and various features
+> **Внимание:** Программа находится в альфа-версии, поэтому в ней может быть много багов.
 
 Здравствуйте! Чтобы установить Floating Island на ваш ПК, вам понадобится:
 
@@ -22,6 +23,8 @@ foreach (x in d) { sc.exe stop x.Name; sc.exe delete x.Name }
 ⠀
 ⠀
 //ENG//
+
+> **Note:** This program is currently in alpha, so there may be many bugs.
 
 Hello! To install Floating Island on your PC, you will need:
 
