@@ -8,7 +8,7 @@ A Simple floating island with customization options and various features
 
 Инструкция:
 
-Распакуйте файл и перенесите его на рабочий стол для удобства. Запустите файл build.bat и подождите примерно 15–30 сек. (зависит от скорости вашего диска). У вас появятся папки bin, obj и out — вам нужна папка out, в ней появится само приложение.
+Распакуйте файл и перенесите его на рабочий стол для удобства. Запустите файл build.bat и подождите примерно 50–70 сек. (зависит от скорости вашего диска). У вас появятся папки bin, obj и out — вам нужна папка out, в ней появится само приложение.
 
 Удаление:
 
@@ -32,7 +32,7 @@ Hello! To install Floating Island on your PC, you will need:
 
 Instructions:
 
-Extract the archive and move it to your Desktop for convenience. Run the `build.bat` file and wait for about 15–30 seconds (depending on your drive speed). Once finished, the `bin`, `obj`, and `out` folders will appear — you will need the `out` folder, where the application itself will be located.
+Extract the archive and move it to your Desktop for convenience. Run the `build.bat` file and wait for about 50–70 seconds (depending on your drive speed). Once finished, the `bin`, `obj`, and `out` folders will appear — you will need the `out` folder, where the application itself will be located.
 
 Uninstallation:
 
