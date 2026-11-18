@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏝️ Floating Island
+# 🏝️ Floating Island By Mitkilsleo
 
 **Интерактивный «Динамический остров» для Windows в стиле iOS с кастомизацией, музыкой и виджетами.**
 
