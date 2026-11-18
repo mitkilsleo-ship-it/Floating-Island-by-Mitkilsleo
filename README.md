@@ -5,7 +5,7 @@
 **Интерактивный «Динамический остров» для Windows в стиле iOS с кастомизацией, музыкой и виджетами.**
 
 [![Release](https://shields.io)](https://github.com/mitkilsleo-ship-it/Floating-Island-by-Mitkilsleo/releases)
-[![Platform](https://shields.io)](WINDOWS 10 / 11)
+[![Platform](Windows%2010%20%2F%2011)
 [![.NET](https://shields.io)](https://dotnet.microsoft.com)
 
 [Скачать последний релиз](https://github.com/mitkilsleo-ship-it/Floating-Island-by-Mitkilsleo/releases) · [English Version](#-english)
