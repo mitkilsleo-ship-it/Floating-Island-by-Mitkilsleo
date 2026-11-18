@@ -35,7 +35,7 @@
 Для версий новее Alpha v0.1 просто закройте программу через кнопку в приложении и удалите её папку. 
 
 <details>
-<summary><b>Команда для удаления устаревшей Alpha v0.1 (PowerShell от имени администратора)[Текст кликабельный]</b></summary>
+<summary><b>Команда для удаления устаревшей Alpha v0.1 (PowerShell от имени администратора)</b></summary>
 
 ```powershell
 \(d = Get-CimInstance Win32_SystemDriver \vert{} Where-Object PathName -like '*FloatingIsland.sys*'\)d | Select Name, State, PathName
