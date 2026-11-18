@@ -1,49 +1,58 @@
-# Floating-Island-by-Mitkilsleo
-A Simple floating island with customization options and various features
-> **Внимание:** Программа находится в альфа-версии, поэтому в ней может быть много багов.
+<div align="center">
 
-Здравствуйте! Чтобы установить Floating Island на ваш ПК, вам понадобится:
+# 🏝️ Floating Island
 
-- Программа .NET ((https://dotnet.microsoft.com))
+**Интерактивный «Динамический остров» для Windows в стиле iOS с кастомизацией, музыкой и виджетами.**
 
-Инструкция:
+[![Release](https://shields.io)](https://github.com)
+[![Platform](https://shields.io)](https://github.com)
+[![.NET](https://shields.io)](https://microsoft.com)
 
-Распакуйте файл и перенесите его на рабочий стол для удобства. Запустите файл build.bat и подождите примерно 30–70 сек. (зависит от скорости вашего диска). У вас появятся папки bin, obj и out — вам нужна папка out, в ней появится само приложение.
+[Скачать последний релиз](https://github.com) · [English Version](#-english)
 
-Удаление:
+</div>
 
-Если вы захотите удалить приложение полностью, сначала пропишите в PowerShell (от имени администратора) следующую команду (если что-то мешает закрыть программу):
+> [!WARNING]
+> **Alpha-версия:** Программа находится в активной разработке. Будем рады вашим отзывам и звёздам ⭐ в репозитории!
+
+---
+
+## ✨ Основные возможности
+* 🎵 **Музыка и Discord:** Мини-плеер с эквалайзером и интеграция с Discord (аватар, статус голоса, мут).
+* 📂 **Инструменты и мониторинг:** Полка для файлов (Shelf), системный мониторинг (Wi-Fi, VPN, батарея), таймеры, погода и скриншоты.
+* 🎨 **Кастомизация:** Темы Glass, Matte, Wood и градиенты.
+
+---
+
+## 🚀 Быстрый старт
+1. Установите **[.NET](https://microsoft.com)**.
+2. Скачайте архив из раздела **[Releases](https://github.com)** и распакуйте на Рабочий стол.
+3. Запустите `build.bat`, подождите 15–30 секунд и откройте приложение из папки **`out`**.
+
+---
+
+## 🗑️ Удаление
+Для версий новее Alpha v0.1 просто закройте программу и удалите её папку. 
+
+<details>
+<summary><b>Команда для удаления устаревшей Alpha v0.1 (PowerShell от имени администратора)</b></summary>
 
 ```powershell
 \(d = Get-CimInstance Win32_SystemDriver \vert{} Where-Object PathName -like '*FloatingIsland.sys*'\)d | Select Name, State, PathName
-foreach (x in d) { sc.exe stop x.Name; sc.exe delete x.Name }
+foreach (\(x in\)d) { sc.exe stop \(x.Name; sc.exe delete\)x.Name }
 ```
-⠀
-⠀
-⠀
-⠀
-//ENG//
+</details>
 
-> **Note:** This program is currently in alpha, so there may be many bugs.
+---
 
-Hello! To install Floating Island on your PC, you will need:
+<div align="center" id="-english">
 
-- .NET ((https://dotnet.microsoft.com))
+# 🏝️ Floating Island (English)
 
-Instructions:
+**An interactive iOS-style Dynamic Island for Windows with custom widgets, music controls, and Discord integration.**
 
-Extract the archive and move it to your Desktop for convenience. Run the `build.bat` file and wait for about 30–70 seconds (depending on your drive speed). Once finished, the `bin`, `obj`, and `out` folders will appear — you will need the `out` folder, where the application itself will be located.
+</div>
 
-Uninstallation:
-
-If you want to completely uninstall the application, first run the following command in PowerShell as Administrator (in case something prevents you from closing the program):
-
-```powershell
-\(d = Get-CimInstance Win32_SystemDriver \vert{} Where-Object PathName -like '*FloatingIsland.sys*'\)d | Select Name, State, PathName
-foreach (x in d) { sc.exe stop x.Name; sc.exe delete x.Name }
-```
-
-
-
-
-
+## 🚀 Quick Start & Uninstallation
+* Install **[.NET](https://microsoft.com)**, download the release from [GitHub](https://github.com), run `build.bat`, and launch from the `out` folder.
+* For legacy Alpha v0.1 removal, use the PowerShell command from the Russian section above as Administrator.
