@@ -25,8 +25,8 @@
 ---
 
 ## 🚀 Быстрый старт
-1. Установите **[.NET](https://microsoft.com)**.
-2. Скачайте архив из раздела **[Releases](https://github.com)** и распакуйте на Рабочий стол.
+1. Установите **[.NET](https://dotnet.microsoft.com)**.
+2. Скачайте архив из раздела **[Releases](https://github.com/mitkilsleo-ship-it/Floating-Island-by-Mitkilsleo/releases)** и распакуйте на Рабочий стол.
 3. Запустите `build.bat`, подождите 15–30 секунд и откройте приложение из папки **`out`**.
 
 ---
@@ -54,5 +54,5 @@ foreach (\(x in\)d) { sc.exe stop \(x.Name; sc.exe delete\)x.Name }
 </div>
 
 ## 🚀 Quick Start & Uninstallation
-* Install **[.NET](https://microsoft.com)**, download the release from [GitHub](https://github.com), run `build.bat`, and launch from the `out` folder.
+* Install **[.NET](https://dotnet.microsoft.com)**, download the release from [GitHub](https://github.com/mitkilsleo-ship-it/Floating-Island-by-Mitkilsleo/releases), run `build.bat`, and launch from the `out` folder.
 * For legacy Alpha v0.1 removal, use the PowerShell command from the Russian section above as Administrator.
