@@ -61,8 +61,9 @@
 <summary><b>Команда для удаления устаревшей Alpha v0.1 (PowerShell от имени администратора)</b></summary>
 
 ```powershell
-\(d = Get-CimInstance Win32_SystemDriver \vert{} Where-Object PathName -like '*FloatingIsland.sys*'\)d | Select Name, State, PathName
-foreach (\(x in\)d) { sc.exe stop \(x.Name; sc.exe delete\)x.Name }
+$d = Get-CimInstance Win32_SystemDriver | Where-Object PathName -like '*FloatingIsland.sys*'
+$d | Select Name, State, PathName
+foreach ($x in $d) { sc.exe stop $x.Name; sc.exe delete $x.Name }
 ```
 </details>
 
